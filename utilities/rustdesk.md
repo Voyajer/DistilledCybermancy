@@ -8,3 +8,7 @@ open ports
 - 21115-21119 TCP
 - 21116 UDP
 - 8000 TCP
+
+`wget https://github.com/techahold/rustdeskinstall/blob/master/install.sh
+`chmod +x isntall.sh
+`./install.sh
