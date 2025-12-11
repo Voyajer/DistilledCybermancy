@@ -15,10 +15,10 @@ PostDown = iptables -D FORWARD -i %i -j ACCEPT
 PostDown = iptables -t nat -D POSTROUTING -j MASQUERADE
 
 ListenPort = 51820
-PrivateKey = [REDACTED]
+PrivateKey = [Server's Private Key]
 
 [Peer]
-PublicKey = [Redacted]
+PublicKey = [Client's Public Key]
 AllowedIPs = [Wireguard Client IP]
 ```
 
@@ -29,10 +29,10 @@ Address = [Wireguard Client IP]
 SaveConfig = true  
 ListenPort = 51820  
 FwMark = 0xca6c  
-PrivateKey = [Redacted]  
+PrivateKey = [Client's Private Key]  
   
 [Peer]  
-PublicKey = [Redacted]
+PublicKey = [Server's Public Key]
 AllowedIPs = 0.0.0.0/0  
 Endpoint = [Wireguard Server Public IP]:51820  
 PersistentKeepalive = 30
