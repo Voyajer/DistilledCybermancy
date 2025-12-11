@@ -1,0 +1,6 @@
+#alias one command
+alias ls='ls -a --color=auto'
+
+#terminal bling - this outputs: [user@HH:MM:SS: pm:directory] in dark blue
+export PS1="\[\033[38;5;32m\][\u@\D{%I:%M:%S %P}:\w]:\[$(tput sgr0)\]"
+
