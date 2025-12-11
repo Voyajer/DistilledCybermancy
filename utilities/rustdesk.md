@@ -4,6 +4,7 @@
 
 https://youtu.be/49EfaA5vRbY?si=Cyz8XU5LasnL4DRx&t=410
 
-open ports 21115-21119 TCP
-            21116 UDP
-            8000 TCP
+open ports
+-            21115-21119 TCP
+-            21116 UDP
+-            8000 TCP
