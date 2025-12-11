@@ -6,7 +6,7 @@
 
 # Example: "mangosd.service"
 
----
+```
 [Unit]
 Description=mangosd
 After=network.target mysql.service
@@ -18,4 +18,4 @@ Restart=always
 
 [Install]
 WantedBy=default.target
----
+```
