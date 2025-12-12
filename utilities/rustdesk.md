@@ -9,9 +9,19 @@ open ports
 - 21116 UDP
 - 8000 TCP
 
-`wget https://raw.githubusercontent.com/techahold/rustdeskinstall/refs/heads/master/install.sh
+`wget https://raw.githubusercontent.com/techahold/rustdeskinstall/refs/heads/master/install.sh`
 
-`chmod +x isntall.sh
+`chmod +x isntall.sh`
 
-`./install.sh
+`./install.sh`
+
+Follow prompt. IP, no.
+
+Save the public key it generates.
+
+###install rustdesk client:
+
+`rustdesk-bin`
+
+Once installed, go to settings>network and add server public ip to ID and Relay servers, and the public key in the Key field.
 
