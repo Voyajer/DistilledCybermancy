@@ -1,6 +1,6 @@
 ### Services in systemd
 
-
+located in /etc/systemd/system/
 
 
 
