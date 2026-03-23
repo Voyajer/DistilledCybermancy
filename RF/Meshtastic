@@ -2,4 +2,10 @@
 
 https://meshtastic.org/docs/configuration/
 
-#
+#App
+provide location to mesh
+
+
+#Client_home
+Display > screen on > 15 seconds (to prevent burn-in)
+
