@@ -16,7 +16,8 @@ An appropriate Qwen 3.6 (or newer) model that pairs well with your GPU's VRAM am
 I have a 24GB GPU so I chose Qwen3.6-27B-UD-Q4_K_XL.gguf. It's 18GB large so it will definitely fit into my VRAM even with other things running while having enough room for context fill. For a 16GB card I would probably choose either Qwen3.6-27B-UD-IQ3_XXS.gguf (12.2GB) or Qwen3.5-9B-Q8_0.gguf (9.53GB) from https://huggingface.co/unsloth/Qwen3.5-9B-GGUF. (Useful resource at https://unsloth.ai/docs/models/qwen3.5)
 
 #Configuration:
-Open LMStudio, on the left bar click on "my models", then in the bottom right click on the three dots (...) button and select Change... . Determine and select where you want to store your LLM models. Mine are at ~/Documents/ai/models/. We'll move the model into here later.
+Open LMStudio, on the left bar click on "my models", then in the bottom right click on the three dots (...) button and select Change... . Determine and select where you want to store your LLM models. Mine are at ~/Documents/ai/models/. Move your model into this folder EXCEPT, it must be nested within where you got it, and what it's called (/huggingface/qwen3.x-xxxxxxx/)
 
 Next click the settings cog in the bottom left of the window and click on the runtime tab. Here make sure an appropriate llama.cpp variant is installed. Vulkan works but GPU specific should be faster. Set the preferred variant at the top.
 
+In the upper right click "+ Load Model" and select your chosen model with "manually choose model load parameters" enabled.
