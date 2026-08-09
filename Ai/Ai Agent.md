@@ -41,3 +41,7 @@ Scroll to the bottom and change Condensing Trigger Threshold to something like 9
 Optional:
 Notifications: Enable sound effects or text to speech.
 UI: Require Ctrl+Enter to send for formatting.
+
+
+#Troubleshooting:
+in vscode setting http.proxy support may need to be set to off as well as proxy strict SSL to off to prevent errors. http.electronFetch to true. zoo-code.apiRequestTimeout to 3600.
