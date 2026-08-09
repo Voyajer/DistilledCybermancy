@@ -24,7 +24,7 @@ Next click the settings cog in the bottom left of the window and click on the ru
 In the upper right click "+ Load Model" and select your chosen model with "manually choose model load parameters" enabled.
 <img width="767" height="1143" alt="lmstudio_loadsettings" src="https://github.com/user-attachments/assets/242ee2bd-8d60-4eed-b516-dbc4810e758a" />
 
-Tweak settings until the estimated usage is around or below your VRAM amount. Increase your physical batch size to improve tokens/second speed, set your KV cache quantization type to at most Q8, if you must have longer context lower will be more ram efficient but with either a tradeoff of capability or speed depending on if you use Q4_0 or the others.
+Tweak settings until the estimated usage is around or below your VRAM amount. GPU offload will directly lower your VRAM usage and replace with system RAM but you'll want fast RAM and a fast processor. Increase your physical batch size to improve tokens/second speed significantly, set your KV cache quantization type to at most Q8, if you must have longer context lower will be more ram efficient but with either a tradeoff of capability or speed depending on if you use Q4_0 or the others.
 
 Right side:
 <img width="411" height="1109" alt="lmstudio_inference" src="https://github.com/user-attachments/assets/e569c3d8-0285-4b1f-a241-9dfbd1384ca9" />
